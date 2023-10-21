@@ -1,14 +1,9 @@
-type Hero = {
-    nome: string;
-    vulgo: string;
-    telefone: string;
-}
-function ligarPara(heroi: Hero) {
+"use strict";
+function ligarPara(heroi) {
     console.log('ligando para: ' + heroi.telefone);
 }
-
-ligar({
+ligarPara({
     nome: 'Steve Rogers',
     vulgo: 'Capitão America',
     telefone: '14 31713388',
-})
+});
